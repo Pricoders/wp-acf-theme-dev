@@ -1,0 +1,59 @@
+// Mixins
+
+// Font Mixins
+@mixin body-font {
+  font-family: $font-body;
+}
+@mixin title-font {
+  font-family: $font-title;
+}
+@mixin border-style($color, $width) {
+  border: {
+    color: $color;
+    style: solid;
+    width: $width;
+  }
+}
+// Background Cover Mixin
+@mixin bg-image($position, $repeat, $size, $color) {
+  background: {
+    color: $color;
+    position: $position;
+    repeat: $repeat;
+    size: $size;
+  }
+}
+// Mixin to prefix a property
+// @param {String} $property - Property name
+// @param {*} $value - Property value
+// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+@mixin hover-link($color, $decoration) {
+  &:hover {
+    color: $brand-color;
+    text-decoration: $decoration;
+  }
+}
+
+@mixin cover($height, $position, $repeat, $size) {
+  background: {
+    attachment: scroll;
+    position: $position;
+    repeat: $repeat;
+    size: $size;
+  }
+  height: $height;
+}
+
+@mixin layer($background, $height) {
+  background: $background;
+  height: $height;
+  position: absolute;
+  width: 100%;
+}

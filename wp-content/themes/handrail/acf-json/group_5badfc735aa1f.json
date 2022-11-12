@@ -1,0 +1,109 @@
+{
+    "key": "group_5badfc735aa1f",
+    "title": "Partial: Sections",
+    "fields": [
+        {
+            "key": "field_5badfc78b1465",
+            "label": "Sections",
+            "name": "sections",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5badfc7de5e91": {
+                    "key": "5badfc7de5e91",
+                    "name": "hello_world",
+                    "label": "Hello World",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5badfc87b1466",
+                            "label": "Section: Hello World",
+                            "name": "section:_hello_world",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5badfc361d354"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5bc49f364b3e0": {
+                    "key": "layout_5bc49f364b3e0",
+                    "name": "social_icons",
+                    "label": "Social Icons",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5bc49f364b3e1",
+                            "label": "Section: Social Icons",
+                            "name": "section:_social_icons",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5bc49f199d19f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1668295569
+}

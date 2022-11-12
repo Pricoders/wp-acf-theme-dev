@@ -1,0 +1,57 @@
+// Variables
+
+// Restated Bootstrap Variables
+$theme-colors: (
+  'primary': #77a54f,
+  'light': #fff
+);
+
+$accent-color: #5c8638;
+$brand-color: #77a54f;
+$headings-color: #414141;
+$green: $brand-color !default;
+$primary: $brand-color !default;
+$white: #fff;
+
+//Gradients
+$color-linear-1: rgba(119, 165, 79, .67);
+$color-linear-2: rgba(0, 0, 0, 0);
+$color-brand-gradient: linear-gradient(128.58deg, $color-linear-1 0%, $color-linear-2 100%);
+
+//Backgrounds
+$color-background-grey: #f5f5f5;
+$color-background-icon: #ededed;
+$color-background-light: #eee;
+$color-background-overlay: rgba(0, 0, 0, .5);
+
+//Borders
+$color-border-nav-item: #f3f3f3;
+$color-border-light: #eee;
+$color-border-dark: #979797;
+
+//General
+$color-text-body: #8a8a8a;
+$color-nav-link: $headings-color;
+$color-input-placeholder: #d1d1d1;
+$color-hover-btn-light: #e6e6e6;
+
+// Fonts
+$font-title: 'Roboto Slab', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+// Slick Variables
+$slick-arrow-color: $brand-color;
+$slick-dot-color: $brand-color;
+$slick-dot-color-active: $brand-color;
+$slick-dot-size: 12px;
+
+// Breakpoints
+$break-xs: 480px;
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 991px;
+
+// Tables
+$table-head-bg: #f5f5f5;
+$table-border-color: #c3c3c3;
+$table-head-color: $headings-color;

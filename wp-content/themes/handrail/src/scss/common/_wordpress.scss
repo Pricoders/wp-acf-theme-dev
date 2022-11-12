@@ -1,0 +1,211 @@
+//WordPress Generated Classes
+
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div {
+  &.aligncenter {
+    display: block;
+    margin: 5px auto;
+  }
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a {
+  img {
+    &.alignright {
+      float: right;
+      margin: 5px 0 20px 20px;
+    }
+
+    &.alignnone {
+      margin: 5px 20px 20px 0;
+    }
+
+    &.alignleft {
+      float: left;
+      margin: 5px 20px 20px 0;
+    }
+
+    &.aligncenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.wp-caption {
+  background: $white;
+  border: 1px solid $color-border-light;
+  max-width: 96%; // Image does not overflow the content area
+  padding: 5px 3px 10px;
+  text-align: center;
+
+  .alignnone {
+    margin: 5px 20px 20px 0;
+  }
+
+  .alignleft {
+    margin: 5px 20px 20px 0;
+  }
+
+  .alignright {
+    margin: 5px 0 20px 20px;
+  }
+
+  img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+  }
+
+  p {
+    .wp-caption-text {
+      font-size: 11px;
+      line-height: 17px;
+      margin: 0;
+      padding: 0 4px 5px;
+    }
+  }
+}
+
+// Text meant only for screen readers.
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal; // Many screen reader and browser combinations announce broken words as they would appear visually.
+
+  &:focus {
+    background-color: $color-background-light;
+    clip: auto;
+    clip-path: none;
+    color: $dark;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+  }
+}
+
+blockquote {
+  border-left: 4px solid $brand-color;
+  font-family: $font-title;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 10px 0 40px;
+  padding: 8px 10px 0 20px;
+  position: relative;
+  top: 10px;
+
+  small {
+    color: $gray-500;
+    font-size: 13px;
+    letter-spacing: .005em;
+    line-height: 20px;
+  }
+}
+
+//Nativa gallery WordPress content page and single.
+.tiled-gallery {
+  .gallery-row {
+    margin: 0 auto;
+  }
+}
+
+.gallery {
+  margin: 0 auto 18px;
+
+  .gallery-item {
+    float: left;
+    margin-top: 0;
+    text-align: center;
+    width: 33%;
+
+    img {
+      border: 0;
+    }
+  }
+
+  img {
+    background: $white;
+    border: 1px solid $white;
+    box-shadow: none;
+    padding: 0;
+
+    &:hover {
+      background: $white;
+    }
+  }
+
+  .gallery-caption {
+    color: $color-text-body;
+    font-size: 12px;
+    margin: 5px 0 12px;
+  }
+
+  dl,
+  dt {
+    margin: 0;
+  }
+
+  br {
+    &+br {
+      display: none;
+    }
+  }
+}
+
+.gallery-columns-2 {
+  .gallery-item {
+    width: 50%;
+  }
+
+  .attachment-medium {
+    height: auto;
+    max-width: 92%;
+  }
+}
+
+.gallery-columns-4 {
+  .gallery-item {
+    width: 25%;
+  }
+
+  .attachment-thumbnail {
+    height: auto;
+    max-width: 84%;
+  }
+}
+
+figcaption {
+  color: $gray-600;
+  padding: 10px 0 0;
+}
