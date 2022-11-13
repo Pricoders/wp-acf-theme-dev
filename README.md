@@ -63,7 +63,7 @@ Adds variable definitions to the `.env` file with fresh salts provided by the [w
 
 ## Development
 
-- Now open the terminal and `cd` to the theme directory. This is under `wp-content/themes/handrail`
+- Now open the terminal and `cd` to the theme directory. This is under `wp-content/themes/quick-start`
 - Install dependencies. `npm install`.
 - For development we set a Gulp command that will compile the sources to dist folder. Start watch mode using `gulp dev`.
 - For production we set a Gulp command that will compile and minify the CSS and JS files `gulp build`.
