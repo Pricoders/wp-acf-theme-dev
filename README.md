@@ -63,7 +63,7 @@ Adds variable definitions to the `.env` file with fresh salts provided by the [w
 
 ## Development
 
-- Now open the terminal and `cd` to the theme directory. This is under `wp-content/themes/quick-start`
+- Now open the terminal and `cd` to the theme directory. This is under `wp-content/themes/pricode`
 - Install dependencies. `npm install`.
 - For development we set a Gulp command that will compile the sources to dist folder. Start watch mode using `gulp dev`.
 - For production we set a Gulp command that will compile and minify the CSS and JS files `gulp build`.
@@ -90,4 +90,4 @@ To accomplish this we use a template called "Dynamic" and a special set of custo
 
 Create new `Section: ...` as required. Sometimes you should also create new `Partial: ...` groups for special components that are repeated in many sections (e.g. custom settings for buttons).
 
-The Dynamic template will read the sections and load the appropriate view under `wp-content/themes/quick-start/sections` based on the layout name.
+The Dynamic template will read the sections and load the appropriate view under `wp-content/themes/pricode/sections` based on the layout name.
