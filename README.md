@@ -90,4 +90,4 @@ To accomplish this we use a template called "Dynamic" and a special set of custo
 
 Create new `Section: ...` as required. Sometimes you should also create new `Partial: ...` groups for special components that are repeated in many sections (e.g. custom settings for buttons).
 
-The Dynamic template will read the sections and load the appropriate view under `wp-content/themes/handrail/sections` based on the layout name.
+The Dynamic template will read the sections and load the appropriate view under `wp-content/themes/quick-start/sections` based on the layout name.
