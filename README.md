@@ -68,9 +68,24 @@ Adds variable definitions to the `.env` file with fresh salts provided by the [w
 - For development we set a Gulp command that will compile the sources to dist folder. Start watch mode using `gulp dev`.
 - For production we set a Gulp command that will compile and minify the CSS and JS files `gulp build`.
 
-Styles/Sass files are under: `src/scss/`
+### Theme folder structure
 
-Scripts files are under: `src/js/`
+    ├── acf-json          # ACF fields groups json files
+    ├── assets            # Compiled files
+    │   ├── css
+    │   ├── img
+    │   ├── js
+    │   └── vendor
+    ├── inc               # Contains the PHP functions of the theme
+    ├── partials          # Template parts
+    ├── sections          # ACF Layouts
+    └── src               # Source files: scripts and sass
+        ├── img
+        ├── js            # Scripts files
+        └── scss          # Styles/Sass files
+            ├── common
+            ├── layouts
+            └── sections  # ACF Layout styles
 
 ## ACF
 
